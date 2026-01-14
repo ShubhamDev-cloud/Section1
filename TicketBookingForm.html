@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking Form</title>
+</head>
+<body>
+     <h1>Movie Ticket Booking Form</h1>
+    <p>Please fill the details below to reserve your movie tickets.</p>
+
+    <form>
+
+        <h3>User Information</h3>
+
+        <label>Customer Name:</label>
+        <input type="text"><br><br>
+
+        <label>Email Address:</label>
+        <input type="email"><br><br>
+
+        <label>Contact Number:</label>
+        <input type="number"><br><br>
+
+
+        <h3>Show Details</h3>
+
+        <label>Movie Title:</label>
+        <select>
+            <option>Interstellar</option>
+            <option>Inception</option>
+            <option>Avatar</option>
+            <option>Joker</option>
+        </select><br><br>
+
+        <label>Preferred Language:</label><br>
+        <input type="radio" name="lang"> English
+        <input type="radio" name="lang"> Hindi
+        <input type="radio" name="lang"> Spanish
+        <br><br>
+
+        <label>Show Date:</label>
+        <input type="date"><br><br>
+
+        <label>Show Timing:</label>
+        <select>
+            <option>10:00 AM</option>
+            <option>01:30 PM</option>
+            <option>04:45 PM</option>
+            <option>08:00 PM</option>
+        </select><br><br>
+
+
+        <label>Select Theatre:</label>
+        <select>
+            <option>Galaxy Cinemas</option>
+            <option>CityPlex</option>
+            <option>Grand Movies</option>
+            <option>Star Screen</option>
+        </select><br><br>
+
+        <label>Number of Seats:</label>
+        <input type="number" min="1" max="10"><br><br>
+
+        <label>Seat Category:</label><br>
+        <input type="checkbox"> Regular
+        <input type="checkbox"> Premium
+        <input type="checkbox"> Recliner
+        <br><br>
+
+        <input type="checkbox"> I accept all booking rules and policies
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
